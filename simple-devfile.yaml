@@ -1,6 +1,6 @@
 schemaVersion: 2.3.0
 metadata:
-  generateName: cde-ollama-continue
+  generateName: kai-migrationex
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
