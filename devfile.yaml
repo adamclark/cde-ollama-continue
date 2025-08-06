@@ -47,6 +47,18 @@ commands:
     exec:
       component: ollama
       commandLine: "ollama pull llama3:8b"
+  - id: pullminimodel
+    exec:
+      component: ollama
+      commandLine: "ollama pull phi3:mini"
+  - id: pullqwen05model
+    exec:
+      component: ollama
+      commandLine: "ollama pull qwen2.5-coder:0.5b"
+  - id: pullqwen15model
+    exec:
+      component: ollama
+      commandLine: "ollama pull qwen2.5-coder:1.5b"
   - id: pullautocompletemodel
     exec:
       component: ollama
@@ -58,5 +70,8 @@ commands:
 events:
   postStart:
     - pullmodel
+    - pullminimodel
+    - pullqwen05model
+    - pullqwen15model
     - pullautocompletemodel
     - copyconfig
