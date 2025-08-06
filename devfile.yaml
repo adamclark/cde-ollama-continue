@@ -13,7 +13,7 @@ projects:
 components:
 - name: udi
   container:
-    image: registry.redhat.io/ubi10/ubi:latest
+    image: quay.io/devfile/universal-developer-image:ubi9-latest
     memoryLimit: 4Gi
     memoryRequest: 2Gi
     cpuLimit: 4000m
