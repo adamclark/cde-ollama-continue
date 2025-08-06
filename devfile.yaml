@@ -10,6 +10,12 @@ projects:
         origin: 'https://github.com/redhat-developer-demos/cde-ollama-continue'
       checkoutFrom:
         revision: main
+  - name: migrationex
+    git:
+    remotes:
+      origin: 'https://github.com/konveyor-ecosystem/migrationex'
+    checkoutFrom:
+      revision: main
 components:
 - name: udi
   container:
