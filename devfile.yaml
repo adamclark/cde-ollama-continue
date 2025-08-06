@@ -12,10 +12,10 @@ projects:
         revision: main
   - name: migrationex
     git:
-    remotes:
-      origin: 'https://github.com/konveyor-ecosystem/migrationex'
-    checkoutFrom:
-      revision: main
+      remotes:
+        origin: 'https://github.com/konveyor-ecosystem/migrationex'
+      checkoutFrom:
+        revision: main
 components:
 - name: udi
   container:
