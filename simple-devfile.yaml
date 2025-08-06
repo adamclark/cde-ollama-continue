@@ -1,6 +1,6 @@
 schemaVersion: 2.3.0
 metadata:
-  generateName: kai-migrationex
+  name: kai-migrationex
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
